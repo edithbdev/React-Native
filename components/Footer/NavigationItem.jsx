@@ -2,7 +2,6 @@ import { Pressable, Text, Center, Icon } from "native-base";
 import { useNavigation } from "@react-navigation/native";
 import { MaterialIcons } from "@expo/vector-icons";
 
-// we retrieve props from the parent component (Footer)
 const NavigationItem = ({ id, icon, label, selected, setSelected }) => {
 const navigation = useNavigation();
     return (
